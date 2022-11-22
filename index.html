@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Superpeer</title>
     <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
@@ -14,633 +32,662 @@
   </head>
   <body>
     <div class="preloader">
-  <div class="sk-chase">
-    <div class="sk-chase-dot"></div>
-    <div class="sk-chase-dot"></div>
-    <div class="sk-chase-dot"></div>
-    <div class="sk-chase-dot"></div>
-    <div class="sk-chase-dot"></div>
-    <div class="sk-chase-dot"></div>
-  </div>
-</div>
- <header class="header">
-  <div class="container">
-    <div class="header__inner">
-      <a class="logo" href="#home">
-        <img src="images/logo.svg" alt="Superpeer" />
-      </a>
-      <button class="header__burger">
-        <span class="header__burger-line header__burger-line-1"></span>
-        <span class="header__burger-line header__burger-line-2"></span>
-        <span class="header__burger-line header__burger-line-3"></span>
-      </button>
-      <nav class="header__nav">
-        <ul class="header__list">
-          <li class="header__item">
-            <a class="header__link" href="#home">Home</a>
-          </li>
-          <li class="header__item">
-            <a class="header__link smoothScroll" href="#features">Features</a>
-          </li>
-          <li class="header__item">
-            <a class="header__link smoothScroll" href="#intro">About Us</a>
-          </li>
-        </ul>
-        <div class="header__user-nav">
-          <a class="header__sing" href="#">Sing In</a>
-          <a class="header__btn become-btn" href="#">Become a Superpeer</a>
-        </div>
-      </nav>
+      <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
     </div>
-  </div>
-</header>
-
-
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#home"
+            ><img src="images/logo.svg" alt="Superpeer" /> </a
+          ><button class="header__burger">
+            <span class="header__burger-line header__burger-line-1"></span>
+            <span class="header__burger-line header__burger-line-2"></span>
+            <span class="header__burger-line header__burger-line-3"></span>
+          </button>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" href="#home">Home</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link smoothScroll" href="#features"
+                  >Features</a
+                >
+              </li>
+              <li class="header__item">
+                <a class="header__link smoothScroll" href="#intro">About Us</a>
+              </li>
+            </ul>
+            <div class="header__user-nav">
+              <a class="header__sing" href="#">Sing In</a>
+              <a class="header__btn become-btn" href="#">Become a Superpeer</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
     <main class="main">
       <section class="header-one" id="home">
-  <div class="container">
-    <div class="header-one__inner">
-      <h1 class="header-one__title" data-aos="fade-down">
-        Host cohort-based courses, live events, or 1:1 sessions
-      </h1>
-      <h3 class="header-one__subtitle" data-aos="fade-down">
-        Superpeer is an all-in-one video platform that gives you the tools you
-        need to engage with your audience through video, and connect in a more
-        authentic way.
-      </h3>
-      <div class="header-one__wrapper-btn">
-        <a class="header-one__btn become-btn" data-aos="fade-down" href="#"
-          >Become a Superpeer</a
-        >
-      </div>
-      <div
-        class="header-one__wrapperimg"
-        data-aos="fade-up"
-        data-aos-delay="500"
-      >
-        <a class="header-one__img-btn" href="#"
-          ><svg>
-            <use xlink:href="images/sprite/sprite.svg#play"></use></svg
+        <div class="container">
+          <div class="header-one__inner">
+            <h1 class="header-one__title" data-aos="fade-down">
+              Host cohort-based courses, live events, or 1:1 sessions
+            </h1>
+            <h3 class="header-one__subtitle" data-aos="fade-down">
+              Superpeer is an all-in-one video platform that gives you the tools
+              you need to engage with your audience through video, and connect
+              in a more authentic way.
+            </h3>
+            <div class="header-one__wrapper-btn">
+              <a
+                class="header-one__btn become-btn"
+                data-aos="fade-down"
+                href="#"
+                >Become a Superpeer</a
+              >
+            </div>
+            <div
+              class="header-one__wrapperimg"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <a class="header-one__img-btn" href="#"
+                ><svg>
+                  <use xlink:href="images/sprite/sprite.svg#play"></use></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="chat">
+        <a class="chat__link" href="#"
+          ><svg><use xlink:href="images/sprite/sprite.svg#chat"></use></svg
         ></a>
       </div>
-    </div>
-  </div>
-</section>
- <div class="chat">
-  <a class="chat__link" href="#">
-    <svg>
-      <use xlink:href="images/sprite/sprite.svg#chat"></use>
-    </svg>
-  </a>
-</div>
-
       <section class="cards" id="cards">
-  <div class="container">
-    <div class="cards__inner">
-      <h2 class="title cards__title" data-aos="fade-down">
-        See what magic our community is creating
-      </h2>
-      <h3 class="subtitle cards__subtitle" data-aos="fade-down">
-        Explore these examples of Series, created by our Superpeers, and reserve
-        your spot today
-      </h3>
-      <div class="cards__items">
-        <div class="cards__item cards__item-1" data-aos="fade-right">
-          <div class="cards__item-photo">
-            <picture class="cards__item-avatar">
-              <source
-                type="image/avif"
-                srcset="images/avatar/1.avif 1x, images/avatar/1@2x.avif 2x"
-              />
-              <source
-                type="image/webp"
-                srcset="images/avatar/1.webp 1x, images/avatar/1@2x.webp 2x"
-              />
-              <img loading="lazy" src="images/avatar/1.png" alt="" />
-            </picture>
-          </div>
-          <div class="cards__item-content">
-            <h4 class="cards__item-title">
-              Masterclass on Fundraising Strategies
-            </h4>
-            <h4 class="cards__item-name">Dawn Dickson</h4>
-            <p class="cards__item-text">
-              Entry-level strategies from an expert in entrepreneurship,
-              business development and fundraising. The first female founder to
-              raise $1M> in an equity crowdfunding campaign will teach you the
-              best in investment, crowdfunding and overall fundraising
-              strategies to capitalize your business at every level.
-            </p>
-            <div class="cards__item-nav">
-              <span class="cards__item-starts">Starts</span>
-              <span class="cards__item-date">September 9, 2021</span>
-              <a class="cards__item-btn" href="#">Enroll</a>
+        <div class="container">
+          <div class="cards__inner">
+            <h2 class="title cards__title" data-aos="fade-down">
+              See what magic our community is creating
+            </h2>
+            <h3 class="subtitle cards__subtitle" data-aos="fade-down">
+              Explore these examples of Series, created by our Superpeers, and
+              reserve your spot today
+            </h3>
+            <div class="cards__items">
+              <div class="cards__item cards__item-1" data-aos="fade-right">
+                <div class="cards__item-photo">
+                  <picture class="cards__item-avatar"
+                    ><source
+                      type="image/avif"
+                      srcset="
+                        images/avatar/1.avif,
+                        images/avatar/1@2x.avif 2x
+                      " />
+                    <source
+                      type="image/webp"
+                      srcset="
+                        images/avatar/1.webp,
+                        images/avatar/1@2x.webp 2x
+                      " />
+                    <img loading="lazy" src="images/avatar/1.png" alt=""
+                  /></picture>
+                </div>
+                <div class="cards__item-content">
+                  <h4 class="cards__item-title">
+                    Masterclass on Fundraising Strategies
+                  </h4>
+                  <h4 class="cards__item-name">Dawn Dickson</h4>
+                  <p class="cards__item-text">
+                    Entry-level strategies from an expert in entrepreneurship,
+                    business development and fundraising. The first female
+                    founder to raise $1M> in an equity crowdfunding campaign
+                    will teach you the best in investment, crowdfunding and
+                    overall fundraising strategies to capitalize your business
+                    at every level.
+                  </p>
+                  <div class="cards__item-nav">
+                    <span class="cards__item-starts">Starts</span>
+                    <span class="cards__item-date">September 9, 2021</span>
+                    <a class="cards__item-btn" href="#">Enroll</a>
+                  </div>
+                </div>
+              </div>
+              <div class="cards__item cards__item-2" data-aos="fade-right">
+                <div class="cards__item-photo cards__item-photo-2">
+                  <picture class="cards__item-avatar"
+                    ><source
+                      type="image/avif"
+                      srcset="
+                        images/avatar/2.avif,
+                        images/avatar/2@2x.avif 2x
+                      " />
+                    <source
+                      type="image/webp"
+                      srcset="
+                        images/avatar/2.webp,
+                        images/avatar/2@2x.webp 2x
+                      " />
+                    <img loading="lazy" src="images/avatar/2.png" alt=""
+                  /></picture>
+                </div>
+                <div class="cards__item-content">
+                  <h4 class="cards__item-title">Paid Marketing</h4>
+                  <h4 class="cards__item-name">Thomas Hopkins</h4>
+                  <p class="cards__item-text">
+                    Over the past 7 years I've unlocked company growth potential
+                    for brands like Lyft and Masterclass – after this series,
+                    you will too. Discover what makes a successful paid
+                    marketing campaign and how to scale a revenue-generating
+                    system.
+                  </p>
+                  <div class="cards__item-nav">
+                    <span class="cards__item-starts">Starts</span>
+                    <span class="cards__item-date">August 6, 2021</span>
+                    <a class="cards__item-btn" href="#">Enroll</a>
+                  </div>
+                </div>
+              </div>
+              <div class="cards__item cards__item-3" data-aos="fade-left">
+                <div class="cards__item-photo cards__item-photo-3">
+                  <picture class="cards__item-avatar"
+                    ><source
+                      type="image/avif"
+                      srcset="
+                        images/avatar/3.avif,
+                        images/avatar/3@2x.avif 2x
+                      " />
+                    <source
+                      type="image/webp"
+                      srcset="
+                        images/avatar/3.webp,
+                        images/avatar/3@2x.webp 2x
+                      " />
+                    <img loading="lazy" src="images/avatar/3.png" alt=""
+                  /></picture>
+                </div>
+                <div class="cards__item-content">
+                  <h4 class="cards__item-title">
+                    Find Your True Love, your TwinFlame®
+                  </h4>
+                  <h4 class="cards__item-name">Alice Johnson</h4>
+                  <p class="cards__item-text">
+                    I'm an 8th-generation psychic, and together we'll discover
+                    how your aura operates and the magic you have within to
+                    facilitate self-love and romantic love. If you’re looking
+                    for your Twinflame®, your true love, or you’re ready to find
+                    yourself, this is the course for you.
+                  </p>
+                  <div class="cards__item-nav">
+                    <span class="cards__item-starts">Starts</span>
+                    <span class="cards__item-date">July 26, 2021</span>
+                    <a class="cards__item-btn" href="#">Enroll</a>
+                  </div>
+                </div>
+              </div>
+              <div class="cards__item cards__item-4" data-aos="fade-left">
+                <div class="cards__item-photo cards__item-photo-4">
+                  <span class="cards__item-desc">Coming Soon</span
+                  ><picture class="cards__item-avatar"
+                    ><source
+                      type="image/avif"
+                      srcset="
+                        images/avatar/4.avif,
+                        images/avatar/4@2x.avif 2x
+                      " />
+                    <source
+                      type="image/webp"
+                      srcset="
+                        images/avatar/4.webp,
+                        images/avatar/4@2x.webp 2x
+                      " />
+                    <img loading="lazy" src="images/avatar/4.png" alt=""
+                  /></picture>
+                </div>
+                <div class="cards__item-content">
+                  <h4 class="cards__item-title">
+                    Fiction Writing For Absolute Beginners: How To Publish Your
+                    First Story
+                  </h4>
+                  <h4 class="cards__item-name">Mark Wahlbeck</h4>
+                  <p class="cards__item-text">
+                    Writing can be hard! Publishing can be even harder! In this
+                    Series not only will you learn how to write good fiction,
+                    you’ll also learn how to publish your writing.
+                  </p>
+                  <div class="cards__item-nav">
+                    <span class="cards__item-starts">Starts</span>
+                    <span class="cards__item-date">August 2, 2021</span>
+                    <button class="cards__item-btn">Notify me</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="cards__item cards__item-2" data-aos="fade-right">
-          <div class="cards__item-photo cards__item-photo-2">
-            <picture class="cards__item-avatar">
-              <source
-                type="image/avif"
-                srcset="images/avatar/2.avif 1x, images/avatar/2@2x.avif 2x"
-              />
-              <source
+      </section>
+      <section class="series" id="series">
+        <div class="series__title-wrapper">
+          <h2 class="series__title title" data-aos="fade-down">
+            Featured Superpeer Series
+          </h2>
+        </div>
+        <!-- <div class="container"> -->
+        <div class="series__inner">
+          <div class="series__card" data-aos="fade-down">
+            <picture class="series__card-avatar"
+              ><source
                 type="image/webp"
-                srcset="images/avatar/2.webp 1x, images/avatar/2@2x.webp 2x"
-              />
-              <img loading="lazy" src="images/avatar/2.png" alt="" />
-            </picture>
-          </div>
-          <div class="cards__item-content">
-            <h4 class="cards__item-title">Paid Marketing</h4>
-            <h4 class="cards__item-name">Thomas Hopkins</h4>
-            <p class="cards__item-text">
-              Over the past 7 years I've unlocked company growth potential for
-              brands like Lyft and Masterclass – after this series, you will
-              too. Discover what makes a successful paid marketing campaign and
-              how to scale a revenue-generating system.
+                srcset="
+                  images/series/avatar.webp,
+                  images/series/avatar@2x.webp 2x
+                " />
+              <img loading="lazy" src="images/series/avatar.png" alt=""
+            /></picture>
+            <h3 class="series__card-title">
+              Q&A with a Professional Photographer
+            </h3>
+            <p class="series__card-text">
+              Being a photographer isn't just a job. Let's delve into real
+              examples of how photography has changed lives and shaped the
+              world. Whether you've been creating photos for years or weeks, we
+              all have some similar feelings when we get behind a lens.
             </p>
-            <div class="cards__item-nav">
-              <span class="cards__item-starts">Starts</span>
-              <span class="cards__item-date">August 6, 2021</span>
-              <a class="cards__item-btn" href="#">Enroll</a>
+            <div class="series__card-desc" data-aos="fade-down">
+              <div class="series__card-desc-left">
+                <span>taught by</span>
+                <span class="series__card-name">Adam Katz Sinding</span>
+              </div>
+              <div class="series__card-desc-right">
+                <span>starts</span>
+                <span class="series__card-date">October 2021</span>
+              </div>
             </div>
+            <div class="series__card-btn btn">Notify</div>
           </div>
         </div>
-        <div class="cards__item cards__item-3" data-aos="fade-left">
-          <div class="cards__item-photo cards__item-photo-3">
-            <picture class="cards__item-avatar">
-              <source
-                type="image/avif"
-                srcset="images/avatar/3.avif 1x, images/avatar/3@2x.avif 2x"
-              />
-              <source
-                type="image/webp"
-                srcset="images/avatar/3.webp 1x, images/avatar/3@2x.webp 2x"
-              />
-              <img loading="lazy" src="images/avatar/3.png" alt="" />
-            </picture>
-          </div>
-          <div class="cards__item-content">
-            <h4 class="cards__item-title">
-              Find Your True Love, your TwinFlame®
-            </h4>
-            <h4 class="cards__item-name">Alice Johnson</h4>
-            <p class="cards__item-text">
-              I'm an 8th-generation psychic, and together we'll discover how
-              your aura operates and the magic you have within to facilitate
-              self-love and romantic love. If you’re looking for your
-              Twinflame®, your true love, or you’re ready to find yourself, this
-              is the course for you.
-            </p>
-            <div class="cards__item-nav">
-              <span class="cards__item-starts">Starts</span>
-              <span class="cards__item-date">July 26, 2021</span>
-              <a class="cards__item-btn" href="#">Enroll</a>
-            </div>
-          </div>
-        </div>
-        <div class="cards__item cards__item-4" data-aos="fade-left">
-          <div class="cards__item-photo cards__item-photo-4">
-            <span class="cards__item-desc">Coming Soon</span>
-            <picture class="cards__item-avatar">
-              <source
-                type="image/avif"
-                srcset="images/avatar/4.avif 1x, images/avatar/4@2x.avif 2x"
-              />
-              <source
-                type="image/webp"
-                srcset="images/avatar/4.webp 1x, images/avatar/4@2x.webp 2x"
-              />
-              <img loading="lazy" src="images/avatar/4.png" alt="" />
-            </picture>
-          </div>
-          <div class="cards__item-content">
-            <h4 class="cards__item-title">
-              Fiction Writing For Absolute Beginners: How To Publish Your First
-              Story
-            </h4>
-            <h4 class="cards__item-name">Mark Wahlbeck</h4>
-            <p class="cards__item-text">
-              Writing can be hard! Publishing can be even harder! In this Series
-              not only will you learn how to write good fiction, you’ll also
-              learn how to publish your writing.
-            </p>
-            <div class="cards__item-nav">
-              <span class="cards__item-starts">Starts</span>
-              <span class="cards__item-date">August 2, 2021</span>
-              <button class="cards__item-btn">Notify me</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
- <section class="series" id="series">
-  <div class="series__title-wrapper">
-    <h2 class="series__title title" data-aos="fade-down">
-      Featured Superpeer Series
-    </h2>
-  </div>
-  <!-- <div class="container"> -->
-  <div class="series__inner">
-    <div class="series__card" data-aos="fade-down">
-      <picture class="series__card-avatar">
-        <source
-          type="image/webp"
-          srcset="images/series/avatar.webp 1x, images/series/avatar@2x.webp 2x"
-        />
-        <img loading="lazy" src="images/series/avatar.png" alt="" />
-      </picture>
-      <h3 class="series__card-title">Q&A with a Professional Photographer</h3>
-      <p class="series__card-text">
-        Being a photographer isn't just a job. Let's delve into real examples of
-        how photography has changed lives and shaped the world. Whether you've
-        been creating photos for years or weeks, we all have some similar
-        feelings when we get behind a lens.
-      </p>
-      <div class="series__card-desc" data-aos="fade-down">
-        <div class="series__card-desc-left">
-          <span>taught by</span>
-          <span class="series__card-name">Adam Katz Sinding</span>
-        </div>
-        <div class="series__card-desc-right">
-          <span>starts</span>
-          <span class="series__card-date">October 2021</span>
-        </div>
-      </div>
-      <div class="series__card-btn btn">Notify</div>
-    </div>
-  </div>
-  <!-- </div> -->
-</section>
-
+        <!-- </div> -->
+      </section>
       <section class="posibilities" id="features">
-  <div class="container">
-    <div class="posibilities__inner">
-      <h2 class="title posibilities__title" data-aos="fade-down">
-        What can Superpeer do for you?
-      </h2>
-      <p class="subtitle posibilities__subtitle" data-aos="fade-down">
-        Turn your audience into loyal, paying followers with our seamless video
-        experience and subscriber management tools.
-      </p>
-      <div class="posibilities__items">
-        <div class="posibilities__item" data-aos="fade-up">
-          <picture class="posibilities__item-img">
-            <source
-              type="image/avif"
-              srcset="
-                images/posibilities/1.avif    1x,
-                images/posibilities/1@2x.avif 2x
-              "
-            />
-            <source
-              type="image/webp"
-              srcset="
-                images/posibilities/1.webp    1x,
-                images/posibilities/1@2x.webp 2x
-              "
-            />
-            <img loading="lazy" src="images/posibilities/1.png" alt="" />
-          </picture>
-          <h4 class="posibilities__item-title">Engage with your audience</h4>
-          <p class="posibilities__item-text">
-            Connect with your subscribers through interactive livestreams, 1:1s,
-            and our newest feature, Series.
-          </p>
-        </div>
-        <div class="posibilities__item" data-aos="fade-up">
-          <picture class="posibilities__item-img">
-            <source
-              type="image/avif"
-              srcset="
-                images/posibilities/2.avif    1x,
-                images/posibilities/2@2x.avif 2x
-              "
-            />
-            <source
-              type="image/webp"
-              srcset="
-                images/posibilities/2.webp    1x,
-                images/posibilities/2@2x.webp 2x
-              "
-            />
-            <img loading="lazy" src="images/posibilities/2.png" alt="" />
-          </picture>
-          <h4 class="posibilities__item-title">Manage easier</h4>
-          <p class="posibilities__item-text">
-            We take care of scheduling, payments, and protecting your privacy,
-            so that you don’t have to.
-          </p>
-        </div>
-        <div class="posibilities__item" data-aos="fade-up">
-          <picture class="posibilities__item-img">
-            <source
-              type="image/avif"
-              srcset="
-                images/posibilities/3.avif    1x,
-                images/posibilities/3@2x.avif 2x
-              "
-            />
-            <source
-              type="image/webp"
-              srcset="
-                images/posibilities/3.webp    1x,
-                images/posibilities/3@2x.webp 2x
-              "
-            />
-            <img loading="lazy" src="images/posibilities/3.png" alt="" />
-          </picture>
-          <h4 class="posibilities__item-title">Earn, your way</h4>
-          <p class="posibilities__item-text">
-            Set your own rates and earn revenue through weekly livestreams,
-            channel subscriptions, and even donations.
-          </p>
-        </div>
-      </div>
-      <div class="posibilities__btn-wrapper" data-aos="fade-down">
-        <a class="posibilities__btn" href="#">All Features</a>
-      </div>
-    </div>
-  </div>
-</section>
- <section class="slider">
-  <div class="container">
-    <div class="slider__inner">
-      <h2 class="title slider__title" data-aos="flip-down">
-        Don’t just take our word for it
-      </h2>
-
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="slider__item" data-aos="flip-up">
-              <p class="slider__text">
-                “I've been using Superpeer with about 10-12 calls per week, and
-                so far the experience has been flawless.”
-              </p>
-              <div class="slider__info">
-                <picture class="slider__img">
-                  <source
+        <div class="container">
+          <div class="posibilities__inner">
+            <h2 class="title posibilities__title" data-aos="fade-down">
+              What can Superpeer do for you?
+            </h2>
+            <p class="subtitle posibilities__subtitle" data-aos="fade-down">
+              Turn your audience into loyal, paying followers with our seamless
+              video experience and subscriber management tools.
+            </p>
+            <div class="posibilities__items">
+              <div class="posibilities__item" data-aos="fade-up">
+                <picture class="posibilities__item-img"
+                  ><source
                     type="image/avif"
-                    srcset="images/slider/1.avif 1x, images/slider/1@2x.avif 2x"
-                  />
+                    srcset="
+                      images/posibilities/1.avif,
+                      images/posibilities/1@2x.avif 2x
+                    " />
                   <source
                     type="image/webp"
-                    srcset="images/slider/1.webp 1x, images/slider/1@2x.webp 2x"
-                  />
-                  <img loading="lazy" src="images/slider/1.png" alt="" />
-                </picture>
-
-                <h4 class="slider__name">Janine Sickmeyer</h4>
-                <h5 class="slider__position">
-                  Tech entrepreneur & Angel investor
-                </h5>
+                    srcset="
+                      images/posibilities/1.webp,
+                      images/posibilities/1@2x.webp 2x
+                    " />
+                  <img loading="lazy" src="images/posibilities/1.png" alt=""
+                /></picture>
+                <h4 class="posibilities__item-title">
+                  Engage with your audience
+                </h4>
+                <p class="posibilities__item-text">
+                  Connect with your subscribers through interactive livestreams,
+                  1:1s, and our newest feature, Series.
+                </p>
+              </div>
+              <div class="posibilities__item" data-aos="fade-up">
+                <picture class="posibilities__item-img"
+                  ><source
+                    type="image/avif"
+                    srcset="
+                      images/posibilities/2.avif,
+                      images/posibilities/2@2x.avif 2x
+                    " />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      images/posibilities/2.webp,
+                      images/posibilities/2@2x.webp 2x
+                    " />
+                  <img loading="lazy" src="images/posibilities/2.png" alt=""
+                /></picture>
+                <h4 class="posibilities__item-title">Manage easier</h4>
+                <p class="posibilities__item-text">
+                  We take care of scheduling, payments, and protecting your
+                  privacy, so that you don’t have to.
+                </p>
+              </div>
+              <div class="posibilities__item" data-aos="fade-up">
+                <picture class="posibilities__item-img"
+                  ><source
+                    type="image/avif"
+                    srcset="
+                      images/posibilities/3.avif,
+                      images/posibilities/3@2x.avif 2x
+                    " />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      images/posibilities/3.webp,
+                      images/posibilities/3@2x.webp 2x
+                    " />
+                  <img loading="lazy" src="images/posibilities/3.png" alt=""
+                /></picture>
+                <h4 class="posibilities__item-title">Earn, your way</h4>
+                <p class="posibilities__item-text">
+                  Set your own rates and earn revenue through weekly
+                  livestreams, channel subscriptions, and even donations.
+                </p>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider__item">
-              <p class="slider__text">
-                “I've been using Superpeer with about 10-12 calls per week, and
-                so far the experience has been flawless.”
-              </p>
-              <div class="slider__info">
-                <picture class="slider__img">
-                  <source
-                    type="image/avif"
-                    srcset="images/slider/1.avif 1x, images/slider/1@2x.avif 2x"
-                  />
-                  <source
-                    type="image/webp"
-                    srcset="images/slider/1.webp 1x, images/slider/1@2x.webp 2x"
-                  />
-                  <img loading="lazy" src="images/slider/1.png" alt="" />
-                </picture>
-
-                <h4 class="slider__name">Janine Sickmeyer</h4>
-                <h5 class="slider__position">
-                  Tech entrepreneur & Angel investor
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider__item">
-              <p class="slider__text">
-                “I've been using Superpeer with about 10-12 calls per week, and
-                so far the experience has been flawless.”
-              </p>
-              <div class="slider__info">
-                <picture class="slider__img">
-                  <source
-                    type="image/avif"
-                    srcset="images/slider/1.avif 1x, images/slider/1@2x.avif 2x"
-                  />
-                  <source
-                    type="image/webp"
-                    srcset="images/slider/1.webp 1x, images/slider/1@2x.webp 2x"
-                  />
-                  <img loading="lazy" src="images/slider/1.png" alt="" />
-                </picture>
-
-                <h4 class="slider__name">Janine Sickmeyer</h4>
-                <h5 class="slider__position">
-                  Tech entrepreneur & Angel investor
-                </h5>
-              </div>
+            <div class="posibilities__btn-wrapper" data-aos="fade-down">
+              <a class="posibilities__btn" href="#">All Features</a>
             </div>
           </div>
         </div>
-        <div class="swiper-button-prev">
-          <svg class="slider__nav-btn slider__nav-btn-left">
-            <use xlink:href="images/sprite/sprite.svg#arrow-slider"></use>
-          </svg>
+      </section>
+      <section class="slider">
+        <div class="container">
+          <div class="slider__inner">
+            <h2 class="title slider__title" data-aos="flip-down">
+              Don’t just take our word for it
+            </h2>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slider__item" data-aos="flip-up">
+                    <p class="slider__text">
+                      “I've been using Superpeer with about 10-12 calls per
+                      week, and so far the experience has been flawless.”
+                    </p>
+                    <div class="slider__info">
+                      <picture class="slider__img"
+                        ><source
+                          type="image/avif"
+                          srcset="
+                            images/slider/1.avif,
+                            images/slider/1@2x.avif 2x
+                          " />
+                        <source
+                          type="image/webp"
+                          srcset="
+                            images/slider/1.webp,
+                            images/slider/1@2x.webp 2x
+                          " />
+                        <img loading="lazy" src="images/slider/1.png" alt=""
+                      /></picture>
+                      <h4 class="slider__name">Janine Sickmeyer</h4>
+                      <h5 class="slider__position">
+                        Tech entrepreneur & Angel investor
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slider__item">
+                    <p class="slider__text">
+                      “I've been using Superpeer with about 10-12 calls per
+                      week, and so far the experience has been flawless.”
+                    </p>
+                    <div class="slider__info">
+                      <picture class="slider__img"
+                        ><source
+                          type="image/avif"
+                          srcset="
+                            images/slider/1.avif,
+                            images/slider/1@2x.avif 2x
+                          " />
+                        <source
+                          type="image/webp"
+                          srcset="
+                            images/slider/1.webp,
+                            images/slider/1@2x.webp 2x
+                          " />
+                        <img loading="lazy" src="images/slider/1.png" alt=""
+                      /></picture>
+                      <h4 class="slider__name">Janine Sickmeyer</h4>
+                      <h5 class="slider__position">
+                        Tech entrepreneur & Angel investor
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slider__item">
+                    <p class="slider__text">
+                      “I've been using Superpeer with about 10-12 calls per
+                      week, and so far the experience has been flawless.”
+                    </p>
+                    <div class="slider__info">
+                      <picture class="slider__img"
+                        ><source
+                          type="image/avif"
+                          srcset="
+                            images/slider/1.avif,
+                            images/slider/1@2x.avif 2x
+                          " />
+                        <source
+                          type="image/webp"
+                          srcset="
+                            images/slider/1.webp,
+                            images/slider/1@2x.webp 2x
+                          " />
+                        <img loading="lazy" src="images/slider/1.png" alt=""
+                      /></picture>
+                      <h4 class="slider__name">Janine Sickmeyer</h4>
+                      <h5 class="slider__position">
+                        Tech entrepreneur & Angel investor
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-prev">
+                <svg class="slider__nav-btn slider__nav-btn-left">
+                  <use xlink:href="images/sprite/sprite.svg#arrow-slider"></use>
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg class="slider__nav-btn slider__nav-btn-right">
+                  <use xlink:href="images/sprite/sprite.svg#arrow-slider"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="swiper-button-next">
-          <svg class="slider__nav-btn slider__nav-btn-right">
-            <use xlink:href="images/sprite/sprite.svg#arrow-slider"></use>
-          </svg>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+      </section>
       <section class="intro" id="intro">
-  <div class="container">
-    <div class="intro__inner">
-      <h2 class="title intro__title" data-aos="fade-up">
-        Introducing Superpeer Series
-      </h2>
-      <p class="intro__subtitle" data-aos="fade-down">
-        With series, you can create and sell any combination of on-demand video
-        and live stream content. With cohort-based classes you can interact with
-        your audience in a more engaging way.
-      </p>
-      <picture class="intro__img" data-aos="fade-right">
-        <source
-          type="image/avif"
-          srcset="images/intro/1.avif 1x, images/intro/1@2x.avif 2x"
+        <div class="container">
+          <div class="intro__inner">
+            <h2 class="title intro__title" data-aos="fade-up">
+              Introducing Superpeer Series
+            </h2>
+            <p class="intro__subtitle" data-aos="fade-down">
+              With series, you can create and sell any combination of on-demand
+              video and live stream content. With cohort-based classes you can
+              interact with your audience in a more engaging way.
+            </p>
+            <picture class="intro__img" data-aos="fade-right"
+              ><source
+                type="image/avif"
+                srcset="images/intro/1.avif, images/intro/1@2x.avif 2x" />
+              <source
+                type="image/webp"
+                srcset="images/intro/1.webp, images/intro/1@2x.webp 2x" />
+              <img loading="lazy" src="images/intro/1.png" alt=""
+            /></picture>
+            <div class="intro__items">
+              <div
+                class="intro__item"
+                data-aos="fade-right"
+                data-aos-delay="1000"
+              >
+                <picture class="intro__item-img"
+                  ><source
+                    type="image/avif"
+                    srcset="
+                      images/intro/item-1.avif,
+                      images/intro/item-1@2x.avif 2x
+                    " />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      images/intro/item-1.webp,
+                      images/intro/item-1@2x.webp 2x
+                    " />
+                  <img loading="lazy" src="images/intro/item-1.png" alt=""
+                /></picture>
+                <h4 class="intro__item-title">Customize the content</h4>
+                <p class="intro__item-text">
+                  Organize your live streams, pre-recorded videos, and hosted
+                  events into purchasable content packages for your audience.
+                </p>
+              </div>
+              <div
+                class="intro__item"
+                data-aos="fade-left"
+                data-aos-delay="1000"
+              >
+                <picture class="intro__item-img"
+                  ><source
+                    type="image/avif"
+                    srcset="
+                      images/intro/item-2.avif,
+                      images/intro/item-2@2x.avif 2x
+                    " />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      images/intro/item-2.webp,
+                      images/intro/item-2@2x.webp 2x
+                    " />
+                  <img loading="lazy" src="images/intro/item-2.png" alt=""
+                /></picture>
+                <h4 class="intro__item-title">Customize the content</h4>
+                <p class="intro__item-text">
+                  Organize your live streams, pre-recorded videos, and hosted
+                  events into purchasable content packages for your audience.
+                </p>
+              </div>
+              <div
+                class="intro__item"
+                data-aos="fade-right"
+                data-aos-delay="1000"
+              >
+                <picture class="intro__item-img"
+                  ><source
+                    type="image/avif"
+                    srcset="
+                      images/intro/item-3.avif,
+                      images/intro/item-3@2x.avif 2x
+                    " />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      images/intro/item-3.webp,
+                      images/intro/item-3@2x.webp 2x
+                    " />
+                  <img loading="lazy" src="images/intro/item-3.png" alt=""
+                /></picture>
+                <h4 class="intro__item-title">Customize the content</h4>
+                <p class="intro__item-text">
+                  Organize your live streams, pre-recorded videos, and hosted
+                  events into purchasable content packages for your audience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="become">
+        <img
+          class="become__logo"
+          src="images/icons/logo-2.svg"
+          alt="Logo"
+          data-aos="fade-up"
+          data-aos-delay="2000"
         />
-        <source
-          type="image/webp"
-          srcset="images/intro/1.webp 1x, images/intro/1@2x.webp 2x"
-        />
-        <img loading="lazy" src="images/intro/1.png" alt="" />
-      </picture>
-      <div class="intro__items">
-        <div class="intro__item" data-aos="fade-right" data-aos-delay="1000">
-          <picture class="intro__item-img">
-            <source
-              type="image/avif"
-              srcset="
-                images/intro/item-1.avif    1x,
-                images/intro/item-1@2x.avif 2x
-              "
-            />
-            <source
-              type="image/webp"
-              srcset="
-                images/intro/item-1.webp    1x,
-                images/intro/item-1@2x.webp 2x
-              "
-            />
-            <img loading="lazy" src="images/intro/item-1.png" alt="" />
-          </picture>
-          <h4 class="intro__item-title">Customize the content</h4>
-          <p class="intro__item-text">
-            Organize your live streams, pre-recorded videos, and hosted events
-            into purchasable content packages for your audience.
-          </p>
-        </div>
-        <div class="intro__item" data-aos="fade-left" data-aos-delay="1000">
-          <picture class="intro__item-img">
-            <source
-              type="image/avif"
-              srcset="
-                images/intro/item-2.avif    1x,
-                images/intro/item-2@2x.avif 2x
-              "
-            />
-            <source
-              type="image/webp"
-              srcset="
-                images/intro/item-2.webp    1x,
-                images/intro/item-2@2x.webp 2x
-              "
-            />
-            <img loading="lazy" src="images/intro/item-2.png" alt="" />
-          </picture>
-          <h4 class="intro__item-title">Customize the content</h4>
-          <p class="intro__item-text">
-            Organize your live streams, pre-recorded videos, and hosted events
-            into purchasable content packages for your audience.
-          </p>
-        </div>
-        <div class="intro__item" data-aos="fade-right" data-aos-delay="1000">
-          <picture class="intro__item-img">
-            <source
-              type="image/avif"
-              srcset="
-                images/intro/item-3.avif    1x,
-                images/intro/item-3@2x.avif 2x
-              "
-            />
-            <source
-              type="image/webp"
-              srcset="
-                images/intro/item-3.webp    1x,
-                images/intro/item-3@2x.webp 2x
-              "
-            />
-            <img loading="lazy" src="images/intro/item-3.png" alt="" />
-          </picture>
-          <h4 class="intro__item-title">Customize the content</h4>
-          <p class="intro__item-text">
-            Organize your live streams, pre-recorded videos, and hosted events
-            into purchasable content packages for your audience.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
- <section class="become">
-  <img
-    class="become__logo"
-    src="images/icons/logo-2.svg"
-    alt="Logo"
-    data-aos="fade-up"
-    data-aos-delay="2000"
-  />
-  <h2 class="title become__title" data-aos="fade-up" data-aos-delay="2000">
-    Become a Superpeer
-  </h2>
-  <a class="become__create" data-aos="fade-up" data-aos-delay="2000" href="#"
-    >Create Account</a
-  >
-</section>
-
+        <h2
+          class="title become__title"
+          data-aos="fade-up"
+          data-aos-delay="2000"
+        >
+          Become a Superpeer
+        </h2>
+        <a
+          class="become__create"
+          data-aos="fade-up"
+          data-aos-delay="2000"
+          href="#"
+          >Create Account</a
+        >
+      </section>
     </main>
     <footer class="footer">
-  <div class="container">
-    <div class="footer__inner">
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a class="footer__list" href="#cards">Blog</a>
-        </li>
-        <li class="footer__list">
-          <a class="footer__list" href="#">FAQ</a>
-        </li>
-        <li class="footer__list">
-          <a class="footer__list" href="#">Privacy</a>
-        </li>
-        <li class="footer__list">
-          <a class="footer__list" href="#">Terms</a>
-        </li>
-      </ul>
-
-      <div class="footer__sm">
-        <a class="footer__link" href="#"
-          ><svg
-            width="32"
-            height="32"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M26.0201 12.7201C26.0201 19.8401 20.4201 27.3201 10.7601 27.3201C8.52676 27.3207 6.32327 26.8074 4.32006 25.8201C3.80006 25.5801 3.94006 24.8201 4.52006 24.7001C7.04006 24.3001 9.32006 23.3001 10.4601 21.6401C3.78006 17.7601 3.90006 11.0001 4.26006 8.24014C4.34006 7.74014 4.94006 7.54014 5.26006 7.90014C7.78006 10.8201 10.8601 12.9201 15.3201 12.6201C14.9201 10.7401 15.4801 8.78014 16.8401 7.46014C17.3375 6.97445 17.928 6.59429 18.576 6.34249C19.2241 6.09069 19.9163 5.97245 20.6112 5.99487C21.3061 6.01729 21.9893 6.17989 22.6197 6.47293C23.2502 6.76597 23.8149 7.18339 24.2801 7.70014C24.8001 8.30014 25.9801 8.74014 27.1601 8.20014C27.6201 8.00014 28.1001 8.40014 27.9801 8.88014C27.5401 10.7201 26.6601 11.8401 26.2401 12.3801C26.1001 12.5601 26.0201 12.6601 26.0201 12.7201Z"
-              fill="black"
-            /></svg
-        ></a>
-        <a class="footer__link" href="#"
-          ><svg
-            width="32"
-            height="32"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M16 4C12.74 4 12.34 4 11.06 4.08C9.78 4.14 8.9 4.34 8.14 4.62C7.34 4.94 6.68 5.34 6.02 6.02C5.34 6.68 4.94 7.36 4.62 8.14C4.34 8.9 4.14 9.78 4.08 11.06C4 12.34 4 12.74 4 16C4 19.26 4 19.66 4.08 20.94C4.14 22.22 4.34 23.1 4.62 23.86C4.94 24.66 5.34 25.32 6.02 25.98C6.68 26.66 7.36 27.06 8.14 27.38C8.9 27.66 9.78 27.86 11.06 27.92C12.34 27.98 12.74 28 16 28C19.26 28 19.66 28 20.94 27.92C21.9379 27.8988 22.9251 27.7094 23.86 27.36C24.66 27.06 25.32 26.66 25.98 25.98C26.66 25.32 27.06 24.66 27.38 23.86C27.66 23.1 27.86 22.22 27.92 20.94C28 19.66 28 19.26 28 16C28 12.74 28 12.34 27.92 11.06C27.8988 10.0621 27.7094 9.07494 27.36 8.14C27.06 7.34 26.66 6.68 25.98 6.02C25.3846 5.40342 24.6608 4.92544 23.86 4.62C22.9242 4.27627 21.9369 4.09368 20.94 4.08C19.66 4 19.26 4 16 4ZM16 6.16C19.2 6.16 19.6 6.16 20.86 6.24C22.02 6.28 22.66 6.48 23.06 6.64C23.64 6.86 24.04 7.12 24.46 7.54C24.86 7.96 25.14 8.36 25.36 8.94C25.52 9.34 25.72 9.98 25.76 11.14C25.82 12.42 25.84 12.8 25.84 16C25.84 19.2 25.84 19.6 25.76 20.86C25.7 22.02 25.5 22.66 25.36 23.06C25.1613 23.5893 24.847 24.0676 24.44 24.46C24.04 24.86 23.62 25.14 23.06 25.36C22.66 25.52 22 25.72 20.82 25.76C19.56 25.82 19.18 25.84 15.98 25.84C12.76 25.84 12.38 25.84 11.12 25.76C10.3562 25.7534 9.5989 25.6182 8.88 25.36C8.34945 25.1638 7.87065 24.8491 7.48 24.44C7.08571 24.0528 6.78477 23.5808 6.6 23.06C6.33498 22.3423 6.19299 21.585 6.18 20.82C6.14 19.56 6.12 19.18 6.12 15.98C6.12 12.78 6.12 12.38 6.18 11.12C6.24 9.96 6.44 9.32 6.58 8.9C6.8 8.32 7.08 7.92 7.5 7.5C7.9 7.1 8.3 6.82 8.88 6.62C9.28 6.44 9.92 6.24 11.08 6.2C12.38 6.14 12.74 6.12 15.96 6.12L16 6.16ZM16 9.84C14.3663 9.84 12.7994 10.489 11.6442 11.6442C10.489 12.7994 9.84 14.3663 9.84 16C9.84 17.6337 10.489 19.2006 11.6442 20.3558C12.7994 21.511 14.3663 22.16 16 22.16C17.6337 22.16 19.2006 21.511 20.3558 20.3558C21.511 19.2006 22.16 17.6337 22.16 16C22.16 14.3663 21.511 12.7994 20.3558 11.6442C19.2006 10.489 17.6337 9.84 16 9.84ZM16 20C14.9391 20 13.9217 19.5786 13.1716 18.8284C12.4214 18.0783 12 17.0609 12 16C12 14.9391 12.4214 13.9217 13.1716 13.1716C13.9217 12.4214 14.9391 12 16 12C17.0609 12 18.0783 12.4214 18.8284 13.1716C19.5786 13.9217 20 14.9391 20 16C20 17.0609 19.5786 18.0783 18.8284 18.8284C18.0783 19.5786 17.0609 20 16 20ZM23.84 9.6C23.84 9.7891 23.8028 9.97636 23.7304 10.1511C23.658 10.3258 23.552 10.4845 23.4182 10.6182C23.2845 10.752 23.1258 10.858 22.9511 10.9304C22.7764 11.0028 22.5891 11.04 22.4 11.04C22.2109 11.04 22.0236 11.0028 21.8489 10.9304C21.6742 10.858 21.5155 10.752 21.3818 10.6182C21.248 10.4845 21.142 10.3258 21.0696 10.1511C20.9972 9.97636 20.96 9.7891 20.96 9.6C20.96 9.21809 21.1117 8.85182 21.3818 8.58177C21.6518 8.31171 22.0181 8.16 22.4 8.16C22.7819 8.16 23.1482 8.31171 23.4182 8.58177C23.6883 8.85182 23.84 9.21809 23.84 9.6Z"
-              fill="black"
-            />
-          </svg>
-        </a>
+      <div class="container">
+        <div class="footer__inner">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__list" href="#cards">Blog</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__list" href="#">FAQ</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__list" href="#">Privacy</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__list" href="#">Terms</a>
+            </li>
+          </ul>
+          <div class="footer__sm">
+            <a class="footer__link" href="#"
+              ><svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M26.0201 12.7201C26.0201 19.8401 20.4201 27.3201 10.7601 27.3201C8.52676 27.3207 6.32327 26.8074 4.32006 25.8201C3.80006 25.5801 3.94006 24.8201 4.52006 24.7001C7.04006 24.3001 9.32006 23.3001 10.4601 21.6401C3.78006 17.7601 3.90006 11.0001 4.26006 8.24014C4.34006 7.74014 4.94006 7.54014 5.26006 7.90014C7.78006 10.8201 10.8601 12.9201 15.3201 12.6201C14.9201 10.7401 15.4801 8.78014 16.8401 7.46014C17.3375 6.97445 17.928 6.59429 18.576 6.34249C19.2241 6.09069 19.9163 5.97245 20.6112 5.99487C21.3061 6.01729 21.9893 6.17989 22.6197 6.47293C23.2502 6.76597 23.8149 7.18339 24.2801 7.70014C24.8001 8.30014 25.9801 8.74014 27.1601 8.20014C27.6201 8.00014 28.1001 8.40014 27.9801 8.88014C27.5401 10.7201 26.6601 11.8401 26.2401 12.3801C26.1001 12.5601 26.0201 12.6601 26.0201 12.7201Z"
+                  fill="black"
+                /></svg></a
+            ><a class="footer__link" href="#"
+              ><svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 4C12.74 4 12.34 4 11.06 4.08C9.78 4.14 8.9 4.34 8.14 4.62C7.34 4.94 6.68 5.34 6.02 6.02C5.34 6.68 4.94 7.36 4.62 8.14C4.34 8.9 4.14 9.78 4.08 11.06C4 12.34 4 12.74 4 16C4 19.26 4 19.66 4.08 20.94C4.14 22.22 4.34 23.1 4.62 23.86C4.94 24.66 5.34 25.32 6.02 25.98C6.68 26.66 7.36 27.06 8.14 27.38C8.9 27.66 9.78 27.86 11.06 27.92C12.34 27.98 12.74 28 16 28C19.26 28 19.66 28 20.94 27.92C21.9379 27.8988 22.9251 27.7094 23.86 27.36C24.66 27.06 25.32 26.66 25.98 25.98C26.66 25.32 27.06 24.66 27.38 23.86C27.66 23.1 27.86 22.22 27.92 20.94C28 19.66 28 19.26 28 16C28 12.74 28 12.34 27.92 11.06C27.8988 10.0621 27.7094 9.07494 27.36 8.14C27.06 7.34 26.66 6.68 25.98 6.02C25.3846 5.40342 24.6608 4.92544 23.86 4.62C22.9242 4.27627 21.9369 4.09368 20.94 4.08C19.66 4 19.26 4 16 4ZM16 6.16C19.2 6.16 19.6 6.16 20.86 6.24C22.02 6.28 22.66 6.48 23.06 6.64C23.64 6.86 24.04 7.12 24.46 7.54C24.86 7.96 25.14 8.36 25.36 8.94C25.52 9.34 25.72 9.98 25.76 11.14C25.82 12.42 25.84 12.8 25.84 16C25.84 19.2 25.84 19.6 25.76 20.86C25.7 22.02 25.5 22.66 25.36 23.06C25.1613 23.5893 24.847 24.0676 24.44 24.46C24.04 24.86 23.62 25.14 23.06 25.36C22.66 25.52 22 25.72 20.82 25.76C19.56 25.82 19.18 25.84 15.98 25.84C12.76 25.84 12.38 25.84 11.12 25.76C10.3562 25.7534 9.5989 25.6182 8.88 25.36C8.34945 25.1638 7.87065 24.8491 7.48 24.44C7.08571 24.0528 6.78477 23.5808 6.6 23.06C6.33498 22.3423 6.19299 21.585 6.18 20.82C6.14 19.56 6.12 19.18 6.12 15.98C6.12 12.78 6.12 12.38 6.18 11.12C6.24 9.96 6.44 9.32 6.58 8.9C6.8 8.32 7.08 7.92 7.5 7.5C7.9 7.1 8.3 6.82 8.88 6.62C9.28 6.44 9.92 6.24 11.08 6.2C12.38 6.14 12.74 6.12 15.96 6.12L16 6.16ZM16 9.84C14.3663 9.84 12.7994 10.489 11.6442 11.6442C10.489 12.7994 9.84 14.3663 9.84 16C9.84 17.6337 10.489 19.2006 11.6442 20.3558C12.7994 21.511 14.3663 22.16 16 22.16C17.6337 22.16 19.2006 21.511 20.3558 20.3558C21.511 19.2006 22.16 17.6337 22.16 16C22.16 14.3663 21.511 12.7994 20.3558 11.6442C19.2006 10.489 17.6337 9.84 16 9.84ZM16 20C14.9391 20 13.9217 19.5786 13.1716 18.8284C12.4214 18.0783 12 17.0609 12 16C12 14.9391 12.4214 13.9217 13.1716 13.1716C13.9217 12.4214 14.9391 12 16 12C17.0609 12 18.0783 12.4214 18.8284 13.1716C19.5786 13.9217 20 14.9391 20 16C20 17.0609 19.5786 18.0783 18.8284 18.8284C18.0783 19.5786 17.0609 20 16 20ZM23.84 9.6C23.84 9.7891 23.8028 9.97636 23.7304 10.1511C23.658 10.3258 23.552 10.4845 23.4182 10.6182C23.2845 10.752 23.1258 10.858 22.9511 10.9304C22.7764 11.0028 22.5891 11.04 22.4 11.04C22.2109 11.04 22.0236 11.0028 21.8489 10.9304C21.6742 10.858 21.5155 10.752 21.3818 10.6182C21.248 10.4845 21.142 10.3258 21.0696 10.1511C20.9972 9.97636 20.96 9.7891 20.96 9.6C20.96 9.21809 21.1117 8.85182 21.3818 8.58177C21.6518 8.31171 22.0181 8.16 22.4 8.16C22.7819 8.16 23.1482 8.31171 23.4182 8.58177C23.6883 8.85182 23.84 9.21809 23.84 9.6Z"
+                  fill="black"
+                /></svg
+            ></a>
+          </div>
+          <span class="footer__logo">Superpeer, Inc.</span>
+        </div>
       </div>
-      <span class="footer__logo">Superpeer, Inc.</span>
-    </div>
-  </div>
-</footer>
-
-
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.min.js"></script>
